@@ -1,0 +1,52 @@
+.currency-converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+select,
+input[type="number"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
+
+.btclick {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.btconvert{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.h1 {
+  color: black;
+}
+.result {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
